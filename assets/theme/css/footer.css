@@ -1,0 +1,47 @@
+@font-face{
+	font-family:"Cuprum";
+	src:url("font/Cuprum.otf");
+	font-weight:normal;
+}
+@font-face{
+	font-family:"Calibri";
+	src:url("font/calibri.ttf");
+	font-weight:normal;
+}
+footer 
+{	float:left;
+	background:#333333;
+	width:100%;
+	color:#BBBBBB;
+}
+footer #column 
+	{width:25%;
+	float:left;
+	padding:5%;
+	font-size:14px;
+	background:#CCC;
+	background:url(header.jpg);
+	background-size:960px 120px; /* CSS3 */
+	font-family:"Cuprum";
+	}
+footer #column h2
+	{margin:0px;
+	margin-bottom:10px;
+	font-family:"Cuprum";
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	}
+footer #column a
+	{
+	font-weight:bold;
+	color:#0099CC;
+	text-decoration:none;
+	}
+footer #column a:hover
+	{
+	text-decoration:underline;
+	}
+
+
+		

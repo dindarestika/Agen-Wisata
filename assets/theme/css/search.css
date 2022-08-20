@@ -1,0 +1,44 @@
+        form {
+			width:500px;
+            margin:50px auto;
+            position:center;
+		}
+		.search {
+			padding:8px 15px;
+			background:rgba(143, 17, 226, 0.2);
+            border:0px solid #dbdbdb;
+            position:center;
+		}
+		.button {
+			position:center;
+			padding:6px 15px;
+			left:-8px;
+			border:2px solid #53bd84;
+			background-color:#53bd84;
+			color:#fafafa;
+		}
+		.button:hover  {
+			background-color:#fafafa;
+			color:#207cca;
+		}
+				  
+		::-webkit-input-placeholder { /* For WebKit browsers */
+			color:    #ffffff;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+			color:     #ffffff;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		::-moz-placeholder { /* For Mozilla Firefox 19+ */
+			color:     #ffffff;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
+		:-ms-input-placeholder { /* For Internet Explorer 10+ */
+			color:     #ffffff;
+						font-family:Helvetica Neue;
+						font-weight:bold;
+		}
